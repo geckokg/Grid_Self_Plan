@@ -132,11 +132,22 @@ export async function initializeDatabase(): Promise<void> {
     return;
   }
 
+  const existingById = new Map((await getQuestions()).map((question) => [question.id, question]));
   const db = await openDb();
   const tx = db.transaction(["questions", "settings", "meta"], "readwrite");
   const questionStore = tx.objectStore("questions");
   obsoleteSeedQuestionIds.forEach((id) => questionStore.delete(id));
-  sampleQuestions.forEach((question) => questionStore.put(question));
+  sampleQuestions.forEach((question) => {
+    const existing = existingById.get(question.id);
+    questionStore.put({
+      ...question,
+      favorite: existing?.favorite ?? question.favorite,
+      wrong: existing?.wrong ?? question.wrong,
+      mastered: existing?.mastered ?? question.mastered,
+      lastPracticedAt: existing?.lastPracticedAt ?? question.lastPracticedAt,
+      practiceCount: existing?.practiceCount ?? question.practiceCount
+    });
+  });
   if (!seedVersion) {
     tx.objectStore("settings").put({
       key: "settings",

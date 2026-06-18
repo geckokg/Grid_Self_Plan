@@ -3,6 +3,7 @@ import { createReadStream } from "node:fs";
 import { appendFile, mkdir, readFile, stat } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import ts from "typescript";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, "..");
@@ -11,20 +12,8 @@ const dataDir = path.join(root, "server-data");
 const syncLogPath = path.join(dataDir, "sync-log.jsonl");
 const port = Number(process.env.PORT ?? 4173);
 
-const manifest = {
-  version: "comm-seed-1",
-  updatedAt: "2026-06-18T00:00:00.000Z",
-  totalQuestions: 7,
-  categories: [
-    { name: "通信原理", count: 1 },
-    { name: "信号与系统", count: 1 },
-    { name: "光纤通信", count: 1 },
-    { name: "移动通信", count: 1 },
-    { name: "计算机网络", count: 1 },
-    { name: "电力通信网", count: 1 },
-    { name: "行测/公共基础/企业文化", count: 1 }
-  ]
-};
+const { sampleQuestions, seedManifest } = await loadSeedQuestionBank();
+const manifest = seedManifest;
 
 const mimeTypes = new Map([
   [".html", "text/html; charset=utf-8"],
@@ -85,7 +74,7 @@ async function handleApi(req, res, url) {
   }
 
   if (req.method === "GET" && url.pathname === "/question-bank/questions") {
-    writeJson(res, 200, []);
+    writeJson(res, 200, sampleQuestions);
     return true;
   }
 
@@ -194,4 +183,18 @@ function readJsonBody(req) {
     });
     req.on("error", reject);
   });
+}
+
+async function loadSeedQuestionBank() {
+  const sourcePath = path.join(root, "src", "data", "sampleQuestions.ts");
+  const source = await readFile(sourcePath, "utf8");
+  const transpiled = ts.transpileModule(source, {
+    compilerOptions: {
+      module: ts.ModuleKind.ES2022,
+      target: ts.ScriptTarget.ES2022,
+      moduleResolution: ts.ModuleResolutionKind.Bundler
+    }
+  });
+  const moduleUrl = `data:text/javascript;base64,${Buffer.from(transpiled.outputText).toString("base64")}`;
+  return import(moduleUrl);
 }

@@ -1,4 +1,4 @@
-const CACHE_NAME = "sgcc-job-pwa-v4";
+const CACHE_NAME = "sgcc-job-pwa-v5";
 const BASE_PATH = new URL(self.registration.scope).pathname;
 const APP_SHELL = [
   BASE_PATH,
