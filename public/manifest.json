@@ -1,0 +1,19 @@
+{
+  "name": "电网通信备考助手",
+  "short_name": "电网通信",
+  "description": "离线优先的通信类备考与找工作辅助 PWA",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f7faf9",
+  "theme_color": "#0f766e",
+  "icons": [
+    {
+      "src": "icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

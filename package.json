@@ -1,0 +1,26 @@
+{
+  "name": "sgcc-job-pwa",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "serve:dist": "node scripts/local-api-server.mjs",
+    "public-preview": "powershell -ExecutionPolicy Bypass -File scripts/start-public-preview.ps1"
+  },
+  "dependencies": {
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.3",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.1",
+    "serve": "^14.2.6",
+    "typescript": "^5.9.3",
+    "vite": "^7.2.6"
+  }
+}
