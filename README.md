@@ -29,6 +29,16 @@ npm run preview -- --host 0.0.0.0 --port 4173
 
 这样 App 本体不依赖你的电脑，也不要求手机和电脑连同一个 Wi-Fi。
 
+## GitHub Pages 地址
+
+当前长期静态站点：
+
+```text
+https://geckokg.github.io/Grid_Self_Plan/
+```
+
+这个地址只提供静态 PWA，所以电脑可以关机，手机仍然能打开已缓存的 App 并离线刷题、记录笔记和岗位。首页的“电脑服务未连接”在这个长期静态地址下是正常状态，表示没有连接本机导入/备份服务。需要同步电脑数据时，再临时启动 `npm run public-preview` 或后续接入一个单独的 HTTPS API。
+
 ### Cloudflare Pages 网页上传
 
 当前已生成可上传包：
