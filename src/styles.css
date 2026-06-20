@@ -215,6 +215,7 @@ textarea {
 .progress-row,
 .list-card p,
 .empty p,
+.help-text,
 .panel p {
   color: #4a6561;
 }

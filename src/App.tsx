@@ -538,6 +538,7 @@ function SettingsPage({
 }) {
   const [apiBaseUrl, setApiBaseUrl] = useState(settings.apiBaseUrl);
   const [autoDetectSync, setAutoDetectSync] = useState(settings.autoDetectSync);
+  const uploadUrl = makeUploadUrl(apiBaseUrl);
 
   return (
     <section className="stack">
@@ -549,7 +550,7 @@ function SettingsPage({
         }}
       >
         <h2>电脑服务</h2>
-        <input value={apiBaseUrl} onChange={(event) => setApiBaseUrl(event.target.value)} placeholder="http://192.168.1.x:8000" />
+        <input value={apiBaseUrl} onChange={(event) => setApiBaseUrl(event.target.value)} placeholder="http://192.168.1.x:4173" />
         <label className="check-row">
           <input type="checkbox" checked={autoDetectSync} onChange={(event) => setAutoDetectSync(event.target.checked)} />
           自动检测电脑服务
@@ -567,6 +568,22 @@ function SettingsPage({
         </div>
       </form>
 
+      <section className="panel form">
+        <h2>手机上传题图</h2>
+        <p>
+          电脑先运行 <code>npm.cmd run upload</code>。手机和电脑同网时，打开电脑服务的上传页，把截图直接保存进
+          <code>quest_pic/科目/批次/</code>。
+        </p>
+        <div className="action-row">
+          <button className="primary" type="button" onClick={() => window.open(uploadUrl, "_blank", "noopener,noreferrer")}>
+            打开上传页
+          </button>
+        </div>
+        <p className="help-text">
+          当前上传地址：<code>{uploadUrl}</code>
+        </p>
+      </section>
+
       <section className="panel">
         <h2>本地状态</h2>
         <p>连接状态：{connection === "connected" ? "已连接电脑服务" : connection === "offline" ? "离线可用" : "已联网但电脑服务不可达"}</p>
@@ -576,6 +593,15 @@ function SettingsPage({
       </section>
     </section>
   );
+}
+
+function makeUploadUrl(apiBaseUrl: string): string {
+  const baseUrl = apiBaseUrl.trim().replace(/\/+$/, "");
+  if (baseUrl) {
+    return `${baseUrl}/upload`;
+  }
+
+  return `${window.location.origin}/upload`;
 }
 
 function Metric({ title, value }: { title: string; value: string }) {

@@ -77,6 +77,42 @@ npm run public-preview
 
 这个临时地址需要电脑保持开机和脚本对应进程保持运行。它适合调试和首次下载安装到手机；长期使用还是建议部署到 Cloudflare Pages、GitHub Pages、Vercel、Netlify 这类静态托管。
 
+## 手机上传题图
+
+电脑启动本地上传服务：
+
+```powershell
+npm.cmd run upload
+```
+
+手机和电脑在同一网络时，手机打开：
+
+```text
+http://电脑IP:4173/upload
+```
+
+也可以在 App 底部进入“设置”，找到“手机上传题图”，点“打开上传页”。
+
+如果手机和电脑不在同一网络，运行临时公网预览：
+
+```powershell
+npm.cmd run public-preview
+```
+
+然后用脚本打印的 `https://...trycloudflare.com/upload` 地址上传。上传页会把图片保存到：
+
+```text
+quest_pic/科目/批次/
+```
+
+建议每批 50 到 100 张截图。上传完成后，在电脑运行：
+
+```powershell
+npm.cmd run scan:question-images
+```
+
+扫描结果会生成到 `tmp/question-image-scan/`，用于后续 OCR、校对和题库导入。
+
 ## 电脑同步服务怎么处理
 
 静态 PWA 可以独立运行；电脑服务只在需要导入题库、备份记录、同步笔记时使用。

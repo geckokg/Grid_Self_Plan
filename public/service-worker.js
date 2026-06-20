@@ -1,4 +1,4 @@
-const CACHE_NAME = "sgcc-job-pwa-v5";
+const CACHE_NAME = "sgcc-job-pwa-v6";
 const BASE_PATH = new URL(self.registration.scope).pathname;
 const APP_SHELL = [
   BASE_PATH,
@@ -84,7 +84,10 @@ async function findCachedResponse(request) {
 }
 
 function isApiRequest(pathname) {
+  const uploadPath = `${BASE_PATH}upload`.replace(/\/+/g, "/");
   return (
+    pathname === "/upload" ||
+    pathname === uploadPath ||
     pathname === "/health" ||
     pathname.startsWith("/question-bank/") ||
     pathname.startsWith("/sync/") ||

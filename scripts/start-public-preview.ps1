@@ -13,7 +13,7 @@ New-Item -ItemType Directory -Force -Path $logDir | Out-Null
 Write-Host "Building PWA..."
 Push-Location $root
 try {
-  npm run build
+  npm.cmd run build
 
   $existing = Get-NetTCPConnection -LocalPort 4173 -State Listen -ErrorAction SilentlyContinue
   foreach ($connection in $existing) {
@@ -72,6 +72,9 @@ try {
   Write-Host ""
   Write-Host "Public HTTPS URL:"
   Write-Host $url
+  Write-Host ""
+  Write-Host "Phone upload URL:"
+  Write-Host "$url/upload"
   Write-Host ""
   Write-Host "Keep this computer awake while using the temporary tunnel."
 } finally {
