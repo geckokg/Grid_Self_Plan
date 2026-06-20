@@ -14,6 +14,7 @@ const syncLogPath = path.join(dataDir, "sync-log.jsonl");
 const uploadLogPath = path.join(dataDir, "upload-log.jsonl");
 const port = Number(process.env.PORT ?? 4173);
 const maxUploadBytes = Number(process.env.UPLOAD_MAX_BYTES ?? 512 * 1024 * 1024);
+const uploadToken = process.env.UPLOAD_TOKEN?.trim() ?? "";
 
 const { sampleQuestions, seedManifest } = await loadSeedQuestionBank();
 const manifest = seedManifest;
@@ -69,11 +70,19 @@ const server = http.createServer(async (req, res) => {
 
 server.listen(port, "0.0.0.0", () => {
   console.log(`Grid Self Plan local server listening on http://127.0.0.1:${port}`);
+  console.log(`Phone upload page: http://127.0.0.1:${port}${uploadPathWithToken()}`);
 });
 
 async function handleApi(req, res, url) {
   if (req.method === "GET" && url.pathname === "/upload") {
-    writeHtml(res, 200, renderUploadPage());
+    writeHtml(
+      res,
+      200,
+      renderUploadPage({
+        requiresToken: Boolean(uploadToken),
+        initialToken: url.searchParams.get("token") ?? ""
+      })
+    );
     return true;
   }
 
@@ -145,6 +154,11 @@ async function handleImageUpload(req, res) {
 
   const body = await readRawBody(req, maxUploadBytes);
   const { fields, files } = parseMultipartFormData(body, boundary);
+  if (!isUploadAuthorized(fields)) {
+    writeJson(res, 403, { ok: false, error: "Upload token is missing or incorrect" });
+    return;
+  }
+
   const category = sanitizePathSegment(firstField(fields, "category") || "未分类");
   const batch = sanitizePathSegment(firstField(fields, "batch") || makeTodayBatchName());
   const images = files.filter((file) => file.fieldName === "images" && file.data.length > 0);
@@ -488,7 +502,30 @@ function toPosix(value) {
   return value.split(path.sep).join("/");
 }
 
-function renderUploadPage() {
+function escapeHtml(value) {
+  return String(value)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
+function uploadPathWithToken() {
+  return uploadToken ? `/upload?token=${encodeURIComponent(uploadToken)}` : "/upload";
+}
+
+function isUploadAuthorized(fields) {
+  return !uploadToken || firstField(fields, "uploadToken") === uploadToken;
+}
+
+function renderUploadPage({ requiresToken, initialToken }) {
+  const tokenField = requiresToken
+    ? `<label>
+        上传口令
+        <input name="uploadToken" type="password" value="${escapeHtml(initialToken)}" autocomplete="off" required>
+      </label>`
+    : "";
+
   return `<!doctype html>
 <html lang="zh-CN">
 <head>
@@ -622,6 +659,7 @@ function renderUploadPage() {
         <input name="images" type="file" accept="image/*" multiple required>
       </label>
       <p class="hint">保存位置会是 <code>quest_pic/科目/批次/</code>。同名文件会自动加后缀，不会覆盖旧图。</p>
+      ${tokenField}
       <button type="submit">上传到电脑</button>
       <progress id="progress" max="100" value="0"></progress>
     </form>

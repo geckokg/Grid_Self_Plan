@@ -99,7 +99,16 @@ http://电脑IP:4173/upload
 npm.cmd run public-preview
 ```
 
-然后用脚本打印的 `https://...trycloudflare.com/upload` 地址上传。上传页会把图片保存到：
+然后用脚本打印的 `https://...trycloudflare.com/upload?token=...` 地址上传。临时公网上传地址会自动带一次性上传口令，不要发到公开群或公开网页。
+
+如果局域网上传也想加口令，可以先设置：
+
+```powershell
+$env:UPLOAD_TOKEN="自己设置一个长一点的口令"
+npm.cmd run upload
+```
+
+上传页会把图片保存到：
 
 ```text
 quest_pic/科目/批次/

@@ -10,6 +10,12 @@ $tunnelErr = Join-Path $logDir "cloudflared.err.log"
 
 New-Item -ItemType Directory -Force -Path $logDir | Out-Null
 
+function New-UploadToken {
+  $bytes = New-Object byte[] 18
+  [System.Security.Cryptography.RandomNumberGenerator]::Fill($bytes)
+  return [Convert]::ToBase64String($bytes).TrimEnd("=").Replace("+", "-").Replace("/", "_")
+}
+
 Write-Host "Building PWA..."
 Push-Location $root
 try {
@@ -22,13 +28,31 @@ try {
 
   Remove-Item -LiteralPath $serverOut, $serverErr, $tunnelOut, $tunnelErr -ErrorAction SilentlyContinue
 
+  $oldUploadToken = $env:UPLOAD_TOKEN
+  $generatedUploadToken = $false
+  if ([string]::IsNullOrWhiteSpace($env:UPLOAD_TOKEN)) {
+    $env:UPLOAD_TOKEN = New-UploadToken
+    $generatedUploadToken = $true
+  }
+  $uploadToken = $env:UPLOAD_TOKEN
+
   $node = (Get-Command node.exe).Source
-  Start-Process -FilePath $node `
-    -ArgumentList @("scripts/local-api-server.mjs") `
-    -WorkingDirectory $root `
-    -WindowStyle Hidden `
-    -RedirectStandardOutput $serverOut `
-    -RedirectStandardError $serverErr | Out-Null
+  try {
+    Start-Process -FilePath $node `
+      -ArgumentList @("scripts/local-api-server.mjs") `
+      -WorkingDirectory $root `
+      -WindowStyle Hidden `
+      -RedirectStandardOutput $serverOut `
+      -RedirectStandardError $serverErr | Out-Null
+  } finally {
+    if ($generatedUploadToken) {
+      if ($null -eq $oldUploadToken) {
+        Remove-Item Env:\UPLOAD_TOKEN -ErrorAction SilentlyContinue
+      } else {
+        $env:UPLOAD_TOKEN = $oldUploadToken
+      }
+    }
+  }
 
   Start-Sleep -Seconds 4
 
@@ -74,7 +98,10 @@ try {
   Write-Host $url
   Write-Host ""
   Write-Host "Phone upload URL:"
-  Write-Host "$url/upload"
+  Write-Host "$url/upload?token=$uploadToken"
+  Write-Host ""
+  Write-Host "Upload token:"
+  Write-Host $uploadToken
   Write-Host ""
   Write-Host "Keep this computer awake while using the temporary tunnel."
 } finally {
