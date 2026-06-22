@@ -280,6 +280,16 @@ textarea {
   gap: 14px;
 }
 
+.question-counter {
+  width: fit-content;
+  border-radius: 999px;
+  background: #dff4f0;
+  color: #0f766e;
+  padding: 5px 10px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
 .question-meta {
   display: flex;
   flex-wrap: wrap;

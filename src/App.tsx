@@ -223,6 +223,7 @@ function PracticePage({
   }, [category, mode, questions]);
 
   const question = queue[index % Math.max(queue.length, 1)];
+  const questionNumber = question ? (index % queue.length) + 1 : 0;
 
   function toggleOption(optionId: string) {
     if (!question || revealed) {
@@ -276,6 +277,9 @@ function PracticePage({
         <EmptyState title="没有可练习的题目" text="可以先切换分类，或等电脑端同步新的题库。" />
       ) : (
         <article className="question-card">
+          <div className="question-counter">
+            第 {questionNumber} / {queue.length} 题
+          </div>
           <div className="question-meta">
             <span>{typeLabel(question.type)}</span>
             <span>{question.category}</span>
@@ -373,9 +377,10 @@ function WrongPage({
 
   return (
     <section className="stack">
-      {wrongQuestions.map((question) => (
+      {wrongQuestions.map((question, itemIndex) => (
         <article className="list-card" key={question.id}>
           <div className="question-meta">
+            <span>错题 {itemIndex + 1} / {wrongQuestions.length}</span>
             <span>{question.category}</span>
             <span>{typeLabel(question.type)}</span>
           </div>
