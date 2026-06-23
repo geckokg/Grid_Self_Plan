@@ -1,6 +1,6 @@
 import type { Question, QuestionBankManifest } from "../types/domain";
 
-export const SEED_VERSION = "fiber-transmission-2026-06-23";
+export const SEED_VERSION = "fiber-transmission-2026-06-23-clean";
 export const obsoleteSeedQuestionIds = [
   "seed-circuit-001",
   "seed-power-001",
@@ -30,7 +30,7 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-001",
     "type": "single",
-    "stem": "下列关于光纤通信的优势的说法，不正确的是",
+    "stem": "下列关于光纤通信的优势的说法，不正确的是（ ）",
     "options": [
       {
         "id": "A",
@@ -46,13 +46,13 @@ export const sampleQuestions: Question[] = [
       },
       {
         "id": "D",
-        "text": "抗电磁，抗雷击，抗雨水，21：19“5G第1章光纤传输技术（1）单选题保密性好44圣1/1"
+        "text": "抗电磁，抗雷击，抗雨水，保密性好"
       }
     ],
     "answer": [
       "B"
     ],
-    "explanation": "分享我做过的次数",
+    "explanation": "",
     "category": "光纤传输技术",
     "difficulty": "medium",
     "source": "图片导入：quest_pic/光纤传输技术/1-10/微信图片_20260618212153_457_44.jpg",
@@ -60,7 +60,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题1"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -70,7 +70,7 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-002",
     "type": "single",
-    "stem": "光纤通信的原理是光的（21：19单选题5G44圣2/108",
+    "stem": "光纤通信的原理是光的（ ）",
     "options": [
       {
         "id": "A",
@@ -92,7 +92,7 @@ export const sampleQuestions: Question[] = [
     "answer": [
       "B"
     ],
-    "explanation": "分享我做过的次数反饣贵纠错",
+    "explanation": "",
     "category": "光纤传输技术",
     "difficulty": "medium",
     "source": "图片导入：quest_pic/光纤传输技术/1-10/微信图片_20260618212154_458_44.jpg",
@@ -100,7 +100,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题2"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -110,29 +110,29 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-003",
     "type": "single",
-    "stem": "多模光纤的波长使用范围是（A850nm、1550nm",
+    "stem": "多模光纤的波长使用范围是（ ）",
     "options": [
       {
         "id": "A",
-        "text": "131"
+        "text": "850nm、1550nm"
       },
       {
         "id": "B",
-        "text": "nm、155"
+        "text": "1310nm、1550nm"
       },
       {
         "id": "C",
-        "text": "nm"
+        "text": "800nm、1800nm"
       },
       {
         "id": "D",
-        "text": "8"
+        "text": "1310nm、1800nm"
       }
     ],
     "answer": [
       "A"
     ],
-    "explanation": "分享我做过的次数反饣贵纠错",
+    "explanation": "",
     "category": "光纤传输技术",
     "difficulty": "medium",
     "source": "图片导入：quest_pic/光纤传输技术/1-10/微信图片_20260618212155_459_44.jpg",
@@ -140,7 +140,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题3"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -150,29 +150,29 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-004",
     "type": "single",
-    "stem": "。00到5G第1章光纤传输技术（1）44圣4/108）是用来完成各种速率接囗适配功能的信息结构单元。0虚容器",
+    "stem": "（ ）是用来完成各种速率接口适配功能的信息结构单元。",
     "options": [
       {
         "id": "A",
-        "text": "容器"
+        "text": "虚容器"
       },
       {
         "id": "B",
-        "text": "支路单元"
+        "text": "容器"
       },
       {
         "id": "C",
-        "text": "管理单元"
+        "text": "支路单元"
       },
       {
         "id": "D",
-        "text": "选项 D"
+        "text": "管理单元"
       }
     ],
     "answer": [
       "A"
     ],
-    "explanation": "分享我做过的次数",
+    "explanation": "",
     "category": "光纤传输技术",
     "difficulty": "medium",
     "source": "图片导入：quest_pic/光纤传输技术/1-10/微信图片_20260618212156_460_44.jpg",
@@ -180,7 +180,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题4"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -190,29 +190,29 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-005",
     "type": "single",
-    "stem": "“5G第1章光纤传输技术（1）44圣5/1085·光接收机的主要质量指标是灵敏度，影响灵敏度的主要D素是（ ）",
+    "stem": "光接收机的主要质量指标是灵敏度，影响灵敏度的主要因素是（ ）",
     "options": [
       {
         "id": "A",
-        "text": "光接收机接收光信号的强弱@光接收机的放大器的倍数"
+        "text": "光接收机接收光信号的强弱"
       },
       {
         "id": "B",
-        "text": "光接收机的噪声"
+        "text": "光接收机的放大器的倍数"
       },
       {
         "id": "C",
-        "text": "光信号的噪声"
+        "text": "光接收机的噪声"
       },
       {
         "id": "D",
-        "text": "选项 D"
+        "text": "光信号的噪声"
       }
     ],
     "answer": [
       "C"
     ],
-    "explanation": "分享我做过的次数",
+    "explanation": "",
     "category": "光纤传输技术",
     "difficulty": "medium",
     "source": "图片导入：quest_pic/光纤传输技术/1-10/微信图片_20260618212159_461_44.jpg",
@@ -220,7 +220,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题5"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -230,29 +230,29 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-006",
     "type": "single",
-    "stem": "。0《到5G第1章光纤传输技术（1）44圣6/1086·下列说法正确的是（单模光能在多模光纤中传输，多模光能在单模光纤中传输单模光能在多模光纤中传输，但多模光不能在单模光纤中传输单模光不能在多模光纤中传输，但多模光0能在单模光纤中传输单模光不能在多模光纤中传输，多模光不0能在单模光纤中传输",
+    "stem": "下列说法正确的是（ ）",
     "options": [
       {
         "id": "A",
-        "text": "选项 A"
+        "text": "单模光能在多模光纤中传输，多模光能在单模光纤中传输"
       },
       {
         "id": "B",
-        "text": "选项 B"
+        "text": "单模光能在多模光纤中传输，但多模光不能在单模光纤中传输"
       },
       {
         "id": "C",
-        "text": "选项 C"
+        "text": "单模光不能在多模光纤中传输，但多模光能在单模光纤中传输"
       },
       {
         "id": "D",
-        "text": "选项 D"
+        "text": "单模光不能在多模光纤中传输，多模光不能在单模光纤中传输"
       }
     ],
     "answer": [
       "B"
     ],
-    "explanation": "我做过的次数1",
+    "explanation": "单模光纤只能在指定波长下传输一种模式的光。",
     "category": "光纤传输技术",
     "difficulty": "medium",
     "source": "图片导入：quest_pic/光纤传输技术/1-10/微信图片_20260618212201_462_44.jpg",
@@ -260,7 +260,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题6"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -270,7 +270,7 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-007",
     "type": "single",
-    "stem": "光隔离器的作用是（",
+    "stem": "光隔离器的作用是（ ）",
     "options": [
       {
         "id": "A",
@@ -286,13 +286,13 @@ export const sampleQuestions: Question[] = [
       },
       {
         "id": "D",
-        "text": "将光纤中传输的监控信号隔离开21：2"
+        "text": "将光纤中传输的监控信号隔离开"
       }
     ],
     "answer": [
       "B"
     ],
-    "explanation": "分享我做过的次数反纠错",
+    "explanation": "",
     "category": "光纤传输技术",
     "difficulty": "medium",
     "source": "图片导入：quest_pic/光纤传输技术/1-10/微信图片_20260618212203_463_44.jpg",
@@ -300,7 +300,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题7"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -310,29 +310,29 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-008",
     "type": "single",
-    "stem": "下列说法正确的是（",
+    "stem": "下列说法正确的是（ ）",
     "options": [
       {
         "id": "A",
-        "text": "光纤的损耗决定光纤通信系统的通信容量@光纤的损耗决定光纤通信系统的传输速率"
+        "text": "光纤的损耗决定光纤通信系统的通信容量"
       },
       {
         "id": "B",
-        "text": "光纤的损耗决定光纤通信系统的传输距离"
+        "text": "光纤的损耗决定光纤通信系统的传输速率"
       },
       {
         "id": "C",
-        "text": "光纤的损耗决定光纤通信系统的传输模式21：2"
+        "text": "光纤的损耗决定光纤通信系统的传输距离"
       },
       {
         "id": "D",
-        "text": "单选题“5G44"
+        "text": "光纤的损耗决定光纤通信系统的传输模式"
       }
     ],
     "answer": [
       "C"
     ],
-    "explanation": "分享我做过的次数反饣贵纠错",
+    "explanation": "",
     "category": "光纤传输技术",
     "difficulty": "medium",
     "source": "图片导入：quest_pic/光纤传输技术/1-10/微信图片_20260618212205_464_44.jpg",
@@ -340,7 +340,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题8"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -350,29 +350,29 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-009",
     "type": "single",
-    "stem": "5G44爷9/1089·下列不属于准同步数字复接体系的缺点是（PDH为语音业务设计，不适用现代通信宽带化、智能化和个人化的发展趋势0具有强大的网络管理功能标准不统一，目前世界上有三种不同地区0性的标准，三者互不兼容PDH传输线路主要是点对点连接，不适应0现代通信网灵活的拓扑接头",
+    "stem": "下列不属于准同步数字复接体系的缺点是（ ）",
     "options": [
       {
         "id": "A",
-        "text": "选项 A"
+        "text": "PDH为语音业务设计，不适用现代通信宽带化、智能化和个人化的发展趋势"
       },
       {
         "id": "B",
-        "text": "选项 B"
+        "text": "具有强大的网络管理功能"
       },
       {
         "id": "C",
-        "text": "选项 C"
+        "text": "标准不统一，目前世界上有三种不同地区性的标准，三者互不兼容"
       },
       {
         "id": "D",
-        "text": "选项 D"
+        "text": "PDH传输线路主要是点对点连接，不适应现代通信网灵活的拓扑结构"
       }
     ],
     "answer": [
       "B"
     ],
-    "explanation": "分享我做过的次数",
+    "explanation": "",
     "category": "光纤传输技术",
     "difficulty": "medium",
     "source": "图片导入：quest_pic/光纤传输技术/1-10/微信图片_20260618212207_465_44.jpg",
@@ -380,7 +380,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题9"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -390,7 +390,7 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-010",
     "type": "single",
-    "stem": "。0《到5G第1章光纤传输技术（1）4410/10810·光纤的色散特性是光纤线路的重要参数。在多模光纤中，（ ）是主要的色散成分。",
+    "stem": "光纤的色散特性是光纤线路的重要参数。在多模光纤中，（ ）是主要的色散成分。",
     "options": [
       {
         "id": "A",
@@ -412,7 +412,7 @@ export const sampleQuestions: Question[] = [
     "answer": [
       "B"
     ],
-    "explanation": "悍币笔卩分享我做过的次数1D",
+    "explanation": "",
     "category": "光纤传输技术",
     "difficulty": "medium",
     "source": "图片导入：quest_pic/光纤传输技术/1-10/微信图片_20260618212209_466_44.jpg",
@@ -420,7 +420,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题10"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -444,7 +444,7 @@ export const sampleQuestions: Question[] = [
     "answer": [
       "false"
     ],
-    "explanation": "我做过的次数1非5G50/108",
+    "explanation": "",
     "category": "光纤传输技术",
     "difficulty": "easy",
     "source": "图片导入：quest_pic/光纤传输技术/11-50/20260623094732_001_IMG_2631.png",
@@ -452,7 +452,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题10"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -462,7 +462,7 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-012",
     "type": "judge",
-    "stem": "最大接收角越大，即纤芯与包层的折射率之差越大，光纤捕捉光线的能力越弱，这种能力用数值孔径09：40第1章光纤传输技术（1）判断题：B非5G49/108NA来表示。",
+    "stem": "最大接收角越大，即纤芯与包层的折射率之差越大，光纤捕捉光线的能力越弱，这种能力用数值孔径NA来表示。",
     "options": [
       {
         "id": "true",
@@ -484,7 +484,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题9"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -494,7 +494,7 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-013",
     "type": "judge",
-    "stem": "数字光纤传输系统中常采用的码型是384B码和插入09：40第1章光纤传输技术（1）判断题：B非5G48/108码。（",
+    "stem": "数字光纤传输系统中常采用的码型是3B4B码和插入码。",
     "options": [
       {
         "id": "true",
@@ -508,7 +508,7 @@ export const sampleQuestions: Question[] = [
     "answer": [
       "false"
     ],
-    "explanation": "我做过的次数1",
+    "explanation": "光纤线路中传输的码型不是输入接口译码产生的NRZ码，而是要先进行码型变换。",
     "category": "光纤传输技术",
     "difficulty": "easy",
     "source": "图片导入：quest_pic/光纤传输技术/11-50/20260623094732_003_IMG_2629.png",
@@ -516,7 +516,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题8"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -526,7 +526,7 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-014",
     "type": "judge",
-    "stem": "第1章光纤传输技术（1）非5G47/1087·大家每天使用的电话与本地交换局间的连接属于线性总线型网络结构。（",
+    "stem": "大家每天使用的电话与本地交换局间的连接属于线性总线型网络结构。",
     "options": [
       {
         "id": "true",
@@ -540,7 +540,7 @@ export const sampleQuestions: Question[] = [
     "answer": [
       "false"
     ],
-    "explanation": "我做过的次数1",
+    "explanation": "电话与本地交换局间的连接属于星型结构。",
     "category": "光纤传输技术",
     "difficulty": "easy",
     "source": "图片导入：quest_pic/光纤传输技术/11-50/20260623094732_004_IMG_2628.png",
@@ -548,7 +548,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题14"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -558,7 +558,7 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-015",
     "type": "judge",
-    "stem": "串囗通信中8个bit也就是8个0或者1为1字节，可以09：39第1章光纤传输技术（1）：B非5G表示成2个字符。（",
+    "stem": "串口通信中8个bit也就是8个0或者1为1字节，可以表示成2个字符。",
     "options": [
       {
         "id": "true",
@@ -572,7 +572,7 @@ export const sampleQuestions: Question[] = [
     "answer": [
       "false"
     ],
-    "explanation": "我做过的次数146/108",
+    "explanation": "",
     "category": "光纤传输技术",
     "difficulty": "easy",
     "source": "图片导入：quest_pic/光纤传输技术/11-50/20260623094732_005_IMG_2627.png",
@@ -580,7 +580,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题6"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -590,7 +590,7 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-016",
     "type": "judge",
-    "stem": "波器属于无源器件：B5·滤波器属无源器件，故从严格意义上讲，可调谐滤",
+    "stem": "滤波器属无源器件，故从严格意义上讲，可调谐滤波器属于无源器件。",
     "options": [
       {
         "id": "true",
@@ -612,7 +612,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题5"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -622,7 +622,7 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-017",
     "type": "judge",
-    "stem": "光纤的机械特性主要包括耐侧压力、抗拉强度、弯09：39第1章光纤传输技术（1）·B非5G44/108曲以及扭绞性能等，耐侧压力是目前使用者最关心的问题。0",
+    "stem": "光纤的机械特性主要包括耐侧压力、抗拉强度、弯曲以及扭绞性能等，耐侧压力是目前使用者最关心的问题。",
     "options": [
       {
         "id": "true",
@@ -636,7 +636,7 @@ export const sampleQuestions: Question[] = [
     "answer": [
       "false"
     ],
-    "explanation": "我做过的次数1使用者最关心的是抗拉强度。",
+    "explanation": "使用者最关心的是抗拉强度。",
     "category": "光纤传输技术",
     "difficulty": "easy",
     "source": "图片导入：quest_pic/光纤传输技术/11-50/20260623094732_007_IMG_2625.png",
@@ -644,7 +644,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题4"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -654,7 +654,7 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-018",
     "type": "judge",
-    "stem": "EDFA可以放大全波长的光。0",
+    "stem": "EDFA可以放大全波长的光。",
     "options": [
       {
         "id": "true",
@@ -676,7 +676,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题3"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -686,7 +686,7 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-019",
     "type": "judge",
-    "stem": "EDFA工作波长为1510nm，与光纤的低损耗波段一09：39第1章光纤传输技术（1）·B非5G0",
+    "stem": "EDFA工作波长为1510nm，与光纤的低损耗波段一致。",
     "options": [
       {
         "id": "true",
@@ -700,7 +700,7 @@ export const sampleQuestions: Question[] = [
     "answer": [
       "false"
     ],
-    "explanation": "我做过的次数142/108",
+    "explanation": "",
     "category": "光纤传输技术",
     "difficulty": "easy",
     "source": "图片导入：quest_pic/光纤传输技术/11-50/20260623094732_009_IMG_2623.png",
@@ -708,7 +708,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题2"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -718,7 +718,7 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-020",
     "type": "judge",
-    "stem": "在OTN网络共定义了两种保护方式，即线性保护和09：39第1章光纤传输技术（1）：B非5G子网连接保护。0",
+    "stem": "在OTN网络共定义了两种保护方式，即线性保护和子网连接保护。",
     "options": [
       {
         "id": "true",
@@ -740,7 +740,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题1"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -750,23 +750,23 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-021",
     "type": "multiple",
-    "stem": "光纤通信系统中，线性损耗主要包括（瑞利散射000受激拉曼散射受激布里渊散射材料不均匀引起的散射",
+    "stem": "光纤通信系统中，线性损耗主要包括（ ）",
     "options": [
       {
         "id": "A",
-        "text": "选项 A"
+        "text": "瑞利散射"
       },
       {
         "id": "B",
-        "text": "选项 B"
+        "text": "受激拉曼散射"
       },
       {
         "id": "C",
-        "text": "选项 C"
+        "text": "受激布里渊散射"
       },
       {
         "id": "D",
-        "text": "选项 D"
+        "text": "材料不均匀引起的散射"
       }
     ],
     "answer": [
@@ -781,7 +781,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题30"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -791,30 +791,30 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-022",
     "type": "multiple",
-    "stem": "第1章光纤传输技术（1）非5G39/10829·MMF按折射率分布进行分类时，有哪两种？间00氵车亓变型随机型曲线型阶跃型",
+    "stem": "MMF按折射率分布进行分类时，有哪两种？",
     "options": [
       {
         "id": "A",
-        "text": "选项 A"
+        "text": "渐变型"
       },
       {
         "id": "B",
-        "text": "选项 B"
+        "text": "随机型"
       },
       {
         "id": "C",
-        "text": "选项 C"
+        "text": "曲线型"
       },
       {
         "id": "D",
-        "text": "选项 D"
+        "text": "阶跃型"
       }
     ],
     "answer": [
       "A",
       "D"
     ],
-    "explanation": "我做过的次数",
+    "explanation": "",
     "category": "光纤传输技术",
     "difficulty": "medium",
     "source": "图片导入：quest_pic/光纤传输技术/11-50/20260623094732_012_IMG_2620.png",
@@ -822,7 +822,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题22"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -832,30 +832,30 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-023",
     "type": "multiple",
-    "stem": "第1章光纤传输技术（1）28·光纤放大器又可分为（非线性光纤放大器0线性光纤放大器掺铒光纤放大器0波分复用放大器",
+    "stem": "光纤放大器又可分为（ ）",
     "options": [
       {
         "id": "A",
-        "text": "选项 A"
+        "text": "非线性光纤放大器"
       },
       {
         "id": "B",
-        "text": "选项 B"
+        "text": "线性光纤放大器"
       },
       {
         "id": "C",
-        "text": "选项 C"
+        "text": "掺铒光纤放大器"
       },
       {
         "id": "D",
-        "text": "选项 D"
+        "text": "波分复用放大器"
       }
     ],
     "answer": [
       "A",
       "C"
     ],
-    "explanation": "我做过的次数1非5G38/108",
+    "explanation": "",
     "category": "光纤传输技术",
     "difficulty": "medium",
     "source": "图片导入：quest_pic/光纤传输技术/11-50/20260623094732_013_IMG_2619.png",
@@ -863,7 +863,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题28"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -873,30 +873,30 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-024",
     "type": "multiple",
-    "stem": "第1章光纤传输技术（1）5G37/10827·下列关于光纤通信特点的描述中错误的有（ ）光纤通信的传输频带宽，通信容量小，可0以容纳很少的光信号光纤通信的光中继器可以中继的距离较间长，可以很长时间的补偿信号衰减和纠正信号失真光纤通信的信道保密性能不好，信道串扰0（同一系统内不同信道之间的干扰）大光纤通信适应能力强，能快速应对突发情",
+    "stem": "下列关于光纤通信特点的描述中错误的有（ ）",
     "options": [
       {
         "id": "A",
-        "text": "选项 A"
+        "text": "光纤通信的传输频带宽，通信容量小，可以容纳很少的光信号"
       },
       {
         "id": "B",
-        "text": "选项 B"
+        "text": "光纤通信的光中继器可以中继的距离较长，可以很长时间地补偿信号衰减和纠正信号失真"
       },
       {
         "id": "C",
-        "text": "选项 C"
+        "text": "光纤通信的信道保密性能不好，信道串扰（同一系统内不同信道之间的干扰）大"
       },
       {
         "id": "D",
-        "text": "选项 D"
+        "text": "光纤通信适应能力强，能快速应对突发情况"
       }
     ],
     "answer": [
       "A",
       "C"
     ],
-    "explanation": "我做过的次数",
+    "explanation": "",
     "category": "光纤传输技术",
     "difficulty": "medium",
     "source": "图片导入：quest_pic/光纤传输技术/11-50/20260623094732_014_IMG_2618.png",
@@ -904,7 +904,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题24"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -914,23 +914,23 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-025",
     "type": "multiple",
-    "stem": "按目前通信所用的不同类型的光缆，光缆可以分为00设备内光缆海底光缆特种光缆室内外光缆",
+    "stem": "按目前通信所用的不同类型的光缆，光缆可以分为（ ）",
     "options": [
       {
         "id": "A",
-        "text": "选项 A"
+        "text": "设备内光缆"
       },
       {
         "id": "B",
-        "text": "选项 B"
+        "text": "海底光缆"
       },
       {
         "id": "C",
-        "text": "选项 C"
+        "text": "特种光缆"
       },
       {
         "id": "D",
-        "text": "选项 D"
+        "text": "室内外光缆"
       }
     ],
     "answer": [
@@ -939,7 +939,7 @@ export const sampleQuestions: Question[] = [
       "C",
       "D"
     ],
-    "explanation": "我做过的次数1",
+    "explanation": "",
     "category": "光纤传输技术",
     "difficulty": "medium",
     "source": "图片导入：quest_pic/光纤传输技术/11-50/20260623094732_015_IMG_2617.png",
@@ -947,7 +947,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题26"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -957,23 +957,23 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-026",
     "type": "multiple",
-    "stem": "激光器的参数主要有（A0平均衰减系数增益系数阈值条件谐振频率",
+    "stem": "激光器的参数主要有（ ）",
     "options": [
       {
         "id": "A",
-        "text": "选项 A"
+        "text": "平均衰减系数"
       },
       {
         "id": "B",
-        "text": "选项 B"
+        "text": "增益系数"
       },
       {
         "id": "C",
-        "text": "选项 C"
+        "text": "阈值条件"
       },
       {
         "id": "D",
-        "text": "选项 D"
+        "text": "谐振频率"
       }
     ],
     "answer": [
@@ -982,7 +982,7 @@ export const sampleQuestions: Question[] = [
       "C",
       "D"
     ],
-    "explanation": "我做过的次数非5G35/108",
+    "explanation": "",
     "category": "光纤传输技术",
     "difficulty": "medium",
     "source": "图片导入：quest_pic/光纤传输技术/11-50/20260623094732_016_IMG_2616.png",
@@ -990,7 +990,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题25"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -1000,23 +1000,23 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-027",
     "type": "multiple",
-    "stem": "半导体激光器的特性有（A0阈值特性光谱特性温度特性转换效率",
+    "stem": "半导体激光器的特性有（ ）",
     "options": [
       {
         "id": "A",
-        "text": "选项 A"
+        "text": "阈值特性"
       },
       {
         "id": "B",
-        "text": "选项 B"
+        "text": "光谱特性"
       },
       {
         "id": "C",
-        "text": "选项 C"
+        "text": "温度特性"
       },
       {
         "id": "D",
-        "text": "选项 D"
+        "text": "转换效率"
       }
     ],
     "answer": [
@@ -1025,7 +1025,7 @@ export const sampleQuestions: Question[] = [
       "C",
       "D"
     ],
-    "explanation": "我做过的次数非5G34/108",
+    "explanation": "",
     "category": "光纤传输技术",
     "difficulty": "medium",
     "source": "图片导入：quest_pic/光纤传输技术/11-50/20260623094732_017_IMG_2615.png",
@@ -1033,7 +1033,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题24"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -1043,23 +1043,23 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-028",
     "type": "multiple",
-    "stem": "SDH的复用单元主要由（传输模块等模块组成。）与管理单元组、同步00容器虚容器支路单元与支路单元组管理单元",
+    "stem": "SDH的复用单元主要由（ ）、虚容器、支路单元与支路单元组、管理单元与管理单元组、同步传输模块等模块组成。",
     "options": [
       {
         "id": "A",
-        "text": "选项 A"
+        "text": "容器"
       },
       {
         "id": "B",
-        "text": "选项 B"
+        "text": "虚容器"
       },
       {
         "id": "C",
-        "text": "选项 C"
+        "text": "支路单元与支路单元组"
       },
       {
         "id": "D",
-        "text": "选项 D"
+        "text": "管理单元与管理单元组"
       }
     ],
     "answer": [
@@ -1068,7 +1068,7 @@ export const sampleQuestions: Question[] = [
       "C",
       "D"
     ],
-    "explanation": "我做过的次数",
+    "explanation": "",
     "category": "光纤传输技术",
     "difficulty": "medium",
     "source": "图片导入：quest_pic/光纤传输技术/11-50/20260623094732_018_IMG_2614.png",
@@ -1076,7 +1076,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题23"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -1086,23 +1086,23 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-029",
     "type": "multiple",
-    "stem": "第1章光纤传输技术（1）非5G32/10822·SDH技术是一套完整的标准化数字信号同步技术，可以完成信息的（A同步传输复用分插分叉连接",
+    "stem": "SDH技术是一套完整的标准化数字信号同步技术，可以完成信息的（ ）",
     "options": [
       {
         "id": "A",
-        "text": "选项 A"
+        "text": "同步"
       },
       {
         "id": "B",
-        "text": "选项 B"
+        "text": "传输"
       },
       {
         "id": "C",
-        "text": "选项 C"
+        "text": "复用"
       },
       {
         "id": "D",
-        "text": "选项 D"
+        "text": "分插分叉连接"
       }
     ],
     "answer": [
@@ -1111,7 +1111,7 @@ export const sampleQuestions: Question[] = [
       "C",
       "D"
     ],
-    "explanation": "我做过的次数",
+    "explanation": "",
     "category": "光纤传输技术",
     "difficulty": "medium",
     "source": "图片导入：quest_pic/光纤传输技术/11-50/20260623094732_019_IMG_2613.png",
@@ -1119,7 +1119,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题29"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -1129,23 +1129,23 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-030",
     "type": "multiple",
-    "stem": "发光二极管的工作特性包括（A0光谱特性输出光功率特性温度特性耦合效率特性",
+    "stem": "发光二极管的工作特性包括（ ）",
     "options": [
       {
         "id": "A",
-        "text": "选项 A"
+        "text": "光谱特性"
       },
       {
         "id": "B",
-        "text": "选项 B"
+        "text": "输出光功率特性"
       },
       {
         "id": "C",
-        "text": "选项 C"
+        "text": "温度特性"
       },
       {
         "id": "D",
-        "text": "选项 D"
+        "text": "耦合效率特性"
       }
     ],
     "answer": [
@@ -1154,7 +1154,7 @@ export const sampleQuestions: Question[] = [
       "C",
       "D"
     ],
-    "explanation": "我做过的次数31/108",
+    "explanation": "",
     "category": "光纤传输技术",
     "difficulty": "medium",
     "source": "图片导入：quest_pic/光纤传输技术/11-50/20260623094732_020_IMG_2612.png",
@@ -1162,7 +1162,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题21"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -1172,23 +1172,23 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-031",
     "type": "multiple",
-    "stem": "光纤的机械特性主要包括（A0耐侧压力抗拉强度弯曲扭绞性能",
+    "stem": "光纤的机械特性主要包括（ ）",
     "options": [
       {
         "id": "A",
-        "text": "选项 A"
+        "text": "耐侧压力"
       },
       {
         "id": "B",
-        "text": "选项 B"
+        "text": "抗拉强度"
       },
       {
         "id": "C",
-        "text": "选项 C"
+        "text": "弯曲"
       },
       {
         "id": "D",
-        "text": "选项 D"
+        "text": "扭绞性能"
       }
     ],
     "answer": [
@@ -1197,7 +1197,7 @@ export const sampleQuestions: Question[] = [
       "C",
       "D"
     ],
-    "explanation": "我做过的次数非5G30/108",
+    "explanation": "",
     "category": "光纤传输技术",
     "difficulty": "medium",
     "source": "图片导入：quest_pic/光纤传输技术/11-50/20260623094732_021_IMG_2611.png",
@@ -1205,7 +1205,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题20"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -1215,23 +1215,23 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-032",
     "type": "multiple",
-    "stem": "SDH网常见的网元主要有（A0终端复用器分插复用器同步数字交叉连接设备再生中继器",
+    "stem": "SDH网常见的网元主要有（ ）",
     "options": [
       {
         "id": "A",
-        "text": "选项 A"
+        "text": "终端复用器"
       },
       {
         "id": "B",
-        "text": "选项 B"
+        "text": "分插复用器"
       },
       {
         "id": "C",
-        "text": "选项 C"
+        "text": "同步数字交叉连接设备"
       },
       {
         "id": "D",
-        "text": "选项 D"
+        "text": "再生中继器"
       }
     ],
     "answer": [
@@ -1240,7 +1240,7 @@ export const sampleQuestions: Question[] = [
       "C",
       "D"
     ],
-    "explanation": "我做过的次数1非5G29/108",
+    "explanation": "SDH网常见的网元主要有终端复用器（TM）、分插复用器（ADM）、同步数字交叉连接设备（SDXC）、再生中继器（REG）。",
     "category": "光纤传输技术",
     "difficulty": "medium",
     "source": "图片导入：quest_pic/光纤传输技术/11-50/20260623094732_022_IMG_2610.png",
@@ -1248,7 +1248,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题19"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -1258,23 +1258,23 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-033",
     "type": "multiple",
-    "stem": "光缆的典型结构有（A0层绞式光缆骨架式光缆束管式光缆带状光缆",
+    "stem": "光缆的典型结构有（ ）",
     "options": [
       {
         "id": "A",
-        "text": "选项 A"
+        "text": "层绞式光缆"
       },
       {
         "id": "B",
-        "text": "选项 B"
+        "text": "骨架式光缆"
       },
       {
         "id": "C",
-        "text": "选项 C"
+        "text": "束管式光缆"
       },
       {
         "id": "D",
-        "text": "选项 D"
+        "text": "带状光缆"
       }
     ],
     "answer": [
@@ -1283,7 +1283,7 @@ export const sampleQuestions: Question[] = [
       "C",
       "D"
     ],
-    "explanation": "我做过的次数非5G28/108",
+    "explanation": "",
     "category": "光纤传输技术",
     "difficulty": "medium",
     "source": "图片导入：quest_pic/光纤传输技术/11-50/20260623094732_023_IMG_2609.png",
@@ -1291,7 +1291,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题18"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -1301,23 +1301,23 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-034",
     "type": "multiple",
-    "stem": "SDH网络存在着一些问题，比如（A0频带利用率低抖动性能劣化软件权限过大定时信息传送困难",
+    "stem": "SDH网络存在着一些问题，比如（ ）",
     "options": [
       {
         "id": "A",
-        "text": "选项 A"
+        "text": "频带利用率低"
       },
       {
         "id": "B",
-        "text": "选项 B"
+        "text": "抖动性能劣化"
       },
       {
         "id": "C",
-        "text": "选项 C"
+        "text": "软件权限过大"
       },
       {
         "id": "D",
-        "text": "选项 D"
+        "text": "定时信息传送困难"
       }
     ],
     "answer": [
@@ -1326,7 +1326,7 @@ export const sampleQuestions: Question[] = [
       "C",
       "D"
     ],
-    "explanation": "我做过的次数27/108",
+    "explanation": "",
     "category": "光纤传输技术",
     "difficulty": "medium",
     "source": "图片导入：quest_pic/光纤传输技术/11-50/20260623094732_024_IMG_2608.png",
@@ -1334,7 +1334,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题17"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -1344,23 +1344,23 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-035",
     "type": "multiple",
-    "stem": "光缆可以分为（A0市话光缆长途光缆海底光缆用户光缆",
+    "stem": "光缆可以分为（ ）",
     "options": [
       {
         "id": "A",
-        "text": "选项 A"
+        "text": "市话光缆"
       },
       {
         "id": "B",
-        "text": "选项 B"
+        "text": "长途光缆"
       },
       {
         "id": "C",
-        "text": "选项 C"
+        "text": "海底光缆"
       },
       {
         "id": "D",
-        "text": "选项 D"
+        "text": "用户光缆"
       }
     ],
     "answer": [
@@ -1369,7 +1369,7 @@ export const sampleQuestions: Question[] = [
       "C",
       "D"
     ],
-    "explanation": "我做过的次数非5G26/108",
+    "explanation": "",
     "category": "光纤传输技术",
     "difficulty": "medium",
     "source": "图片导入：quest_pic/光纤传输技术/11-50/20260623094732_025_IMG_2607.png",
@@ -1377,7 +1377,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题16"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -1387,23 +1387,23 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-036",
     "type": "multiple",
-    "stem": "按照光缆内光纤的套塑方法不同，光缆可以分为（A0紧套光缆松套光缆束管式光缆带状多芯单元光缆",
+    "stem": "按照光缆内光纤的套塑方法不同，光缆可以分为（ ）",
     "options": [
       {
         "id": "A",
-        "text": "选项 A"
+        "text": "紧套光缆"
       },
       {
         "id": "B",
-        "text": "选项 B"
+        "text": "松套光缆"
       },
       {
         "id": "C",
-        "text": "选项 C"
+        "text": "束管式光缆"
       },
       {
         "id": "D",
-        "text": "选项 D"
+        "text": "带状多芯单元光缆"
       }
     ],
     "answer": [
@@ -1412,7 +1412,7 @@ export const sampleQuestions: Question[] = [
       "C",
       "D"
     ],
-    "explanation": "我做过的次数1",
+    "explanation": "",
     "category": "光纤传输技术",
     "difficulty": "medium",
     "source": "图片导入：quest_pic/光纤传输技术/11-50/20260623094732_026_IMG_2606.png",
@@ -1420,7 +1420,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题15"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -1430,23 +1430,23 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-037",
     "type": "multiple",
-    "stem": "光纤由（纤芯包层）构成。0涂覆层外包层",
+    "stem": "光纤由（ ）构成。",
     "options": [
       {
         "id": "A",
-        "text": "选项 A"
+        "text": "纤芯"
       },
       {
         "id": "B",
-        "text": "选项 B"
+        "text": "包层"
       },
       {
         "id": "C",
-        "text": "选项 C"
+        "text": "涂覆层"
       },
       {
         "id": "D",
-        "text": "选项 D"
+        "text": "外包层"
       }
     ],
     "answer": [
@@ -1454,7 +1454,7 @@ export const sampleQuestions: Question[] = [
       "B",
       "C"
     ],
-    "explanation": "我做过的次数：非：5G24/108",
+    "explanation": "",
     "category": "光纤传输技术",
     "difficulty": "medium",
     "source": "图片导入：quest_pic/光纤传输技术/11-50/20260623094732_027_IMG_2605.png",
@@ -1462,7 +1462,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题14"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -1472,23 +1472,23 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-038",
     "type": "multiple",
-    "stem": "第1章光纤传输技术（1）：非：5G23/10813·发光二极管的（ ），在光纤传输距离要求不高、码元速率要求不高的数字光纤通信系统中应用最为广0制造成本低廉制造工艺简单可靠性好谷量大",
+    "stem": "发光二极管的（ ），在光纤传输距离要求不高、码元速率要求不高的数字光纤通信系统中应用最为广泛。",
     "options": [
       {
         "id": "A",
-        "text": "选项 A"
+        "text": "制造成本低廉"
       },
       {
         "id": "B",
-        "text": "选项 B"
+        "text": "制造工艺简单"
       },
       {
         "id": "C",
-        "text": "选项 C"
+        "text": "可靠性好"
       },
       {
         "id": "D",
-        "text": "选项 D"
+        "text": "容量大"
       }
     ],
     "answer": [
@@ -1496,7 +1496,7 @@ export const sampleQuestions: Question[] = [
       "B",
       "C"
     ],
-    "explanation": "我做过的次数",
+    "explanation": "",
     "category": "光纤传输技术",
     "difficulty": "medium",
     "source": "图片导入：quest_pic/光纤传输技术/11-50/20260623094732_028_IMG_2604.png",
@@ -1504,7 +1504,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题38"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -1514,23 +1514,23 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-039",
     "type": "multiple",
-    "stem": "第1章光纤传输技术（1）12·激光器由（ ）构成。0B工作物质激励源光学谐振腔接收源",
+    "stem": "激光器由（ ）构成。",
     "options": [
       {
         "id": "A",
-        "text": "选项 A"
+        "text": "工作物质"
       },
       {
         "id": "B",
-        "text": "选项 B"
+        "text": "激励源"
       },
       {
         "id": "C",
-        "text": "选项 C"
+        "text": "光学谐振腔"
       },
       {
         "id": "D",
-        "text": "选项 D"
+        "text": "接收源"
       }
     ],
     "answer": [
@@ -1538,7 +1538,7 @@ export const sampleQuestions: Question[] = [
       "B",
       "C"
     ],
-    "explanation": "我做过的次数5G22/108",
+    "explanation": "",
     "category": "光纤传输技术",
     "difficulty": "medium",
     "source": "图片导入：quest_pic/光纤传输技术/11-50/20260623094732_029_IMG_2603.png",
@@ -1546,7 +1546,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题12"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -1556,23 +1556,23 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-040",
     "type": "multiple",
-    "stem": "光发射机由（AB光源驱动器调制器解调器",
+    "stem": "光发射机由（ ）组成。",
     "options": [
       {
         "id": "A",
-        "text": "选项 A"
+        "text": "光源"
       },
       {
         "id": "B",
-        "text": "选项 B"
+        "text": "驱动器"
       },
       {
         "id": "C",
-        "text": "选项 C"
+        "text": "调制器"
       },
       {
         "id": "D",
-        "text": "选项 D"
+        "text": "解调器"
       }
     ],
     "answer": [
@@ -1580,7 +1580,7 @@ export const sampleQuestions: Question[] = [
       "B",
       "C"
     ],
-    "explanation": "）组成。我做过的次数1/108",
+    "explanation": "",
     "category": "光纤传输技术",
     "difficulty": "medium",
     "source": "图片导入：quest_pic/光纤传输技术/11-50/20260623094732_030_IMG_2602.png",
@@ -1588,7 +1588,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题11"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -1598,23 +1598,23 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-041",
     "type": "multiple",
-    "stem": "按照光缆内护层材料性质不同，光缆可以分为00聚乙烯护层普通光缆聚氯乙烯护层阻燃光缆尼龙防蚁防鼠光缆管道光缆",
+    "stem": "按照光缆内护层材料性质不同，光缆可以分为（ ）",
     "options": [
       {
         "id": "A",
-        "text": "选项 A"
+        "text": "聚乙烯护层普通光缆"
       },
       {
         "id": "B",
-        "text": "选项 B"
+        "text": "聚氯乙烯护层阻燃光缆"
       },
       {
         "id": "C",
-        "text": "选项 C"
+        "text": "尼龙防蚁防鼠光缆"
       },
       {
         "id": "D",
-        "text": "选项 D"
+        "text": "管道光缆"
       }
     ],
     "answer": [
@@ -1622,7 +1622,7 @@ export const sampleQuestions: Question[] = [
       "B",
       "C"
     ],
-    "explanation": "我做过的次数",
+    "explanation": "",
     "category": "光纤传输技术",
     "difficulty": "medium",
     "source": "图片导入：quest_pic/光纤传输技术/11-50/20260623094732_031_IMG_2601.png",
@@ -1630,7 +1630,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题10"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -1640,23 +1640,23 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-042",
     "type": "multiple",
-    "stem": "光纤按材料分类，可以分为（AB石英（玻璃）系列光纤塑料光纤液体（氟化物）光纤铁质光纤",
+    "stem": "光纤按材料分类，可以分为（ ）",
     "options": [
       {
         "id": "A",
-        "text": "选项 A"
+        "text": "石英（玻璃）系列光纤"
       },
       {
         "id": "B",
-        "text": "选项 B"
+        "text": "塑料光纤"
       },
       {
         "id": "C",
-        "text": "选项 C"
+        "text": "液体（氟化物）光纤"
       },
       {
         "id": "D",
-        "text": "选项 D"
+        "text": "铁质光纤"
       }
     ],
     "answer": [
@@ -1664,7 +1664,7 @@ export const sampleQuestions: Question[] = [
       "B",
       "C"
     ],
-    "explanation": "我做过的次数19/108",
+    "explanation": "",
     "category": "光纤传输技术",
     "difficulty": "medium",
     "source": "图片导入：quest_pic/光纤传输技术/11-50/20260623094732_032_IMG_2600.png",
@@ -1672,7 +1672,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题9"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -1682,23 +1682,23 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-043",
     "type": "multiple",
-    "stem": "非5G第1章光纤传输技术（1）8·F一P腔激光器从结构上划分，可分为（同质结半导体激光器0单异质结半导体激光器双异质结半导体激光器B双质结半导体激光器",
+    "stem": "F-P腔激光器从结构上划分，可分为（ ）",
     "options": [
       {
         "id": "A",
-        "text": "选项 A"
+        "text": "同质结半导体激光器"
       },
       {
         "id": "B",
-        "text": "选项 B"
+        "text": "单异质结半导体激光器"
       },
       {
         "id": "C",
-        "text": "选项 C"
+        "text": "双异质结半导体激光器"
       },
       {
         "id": "D",
-        "text": "选项 D"
+        "text": "双质结半导体激光器"
       }
     ],
     "answer": [
@@ -1706,7 +1706,7 @@ export const sampleQuestions: Question[] = [
       "B",
       "C"
     ],
-    "explanation": "我做过的次数18/108",
+    "explanation": "",
     "category": "光纤传输技术",
     "difficulty": "medium",
     "source": "图片导入：quest_pic/光纤传输技术/11-50/20260623094732_033_IMG_2599.png",
@@ -1714,7 +1714,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题8"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -1724,23 +1724,23 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-044",
     "type": "multiple",
-    "stem": "非5G第1章光纤传输技术（1）17/1087·按照光缆内光纤的芯数多少，光缆可以分为单芯光缆0双芯光缆四芯光缆B十芯光缆",
+    "stem": "按照光缆内光纤的芯数多少，光缆可以分为（ ）",
     "options": [
       {
         "id": "A",
-        "text": "选项 A"
+        "text": "单芯光缆"
       },
       {
         "id": "B",
-        "text": "选项 B"
+        "text": "双芯光缆"
       },
       {
         "id": "C",
-        "text": "选项 C"
+        "text": "四芯光缆"
       },
       {
         "id": "D",
-        "text": "选项 D"
+        "text": "十芯光缆"
       }
     ],
     "answer": [
@@ -1748,7 +1748,7 @@ export const sampleQuestions: Question[] = [
       "B",
       "C"
     ],
-    "explanation": "我做过的次数",
+    "explanation": "",
     "category": "光纤传输技术",
     "difficulty": "medium",
     "source": "图片导入：quest_pic/光纤传输技术/11-50/20260623094732_034_IMG_2598.png",
@@ -1756,7 +1756,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题44"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -1766,30 +1766,30 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-045",
     "type": "multiple",
-    "stem": "开关按其功能分类，可以分为（机械式光开关0电子式开关囵手动式开关B自动式开关",
+    "stem": "光开关按其功能分类，可以分为（ ）",
     "options": [
       {
         "id": "A",
-        "text": "选项 A"
+        "text": "机械式光开关"
       },
       {
         "id": "B",
-        "text": "选项 B"
+        "text": "电子式开关"
       },
       {
         "id": "C",
-        "text": "选项 C"
+        "text": "手动式开关"
       },
       {
         "id": "D",
-        "text": "选项 D"
+        "text": "自动式开关"
       }
     ],
     "answer": [
       "A",
       "B"
     ],
-    "explanation": "我做过的次数16/108",
+    "explanation": "",
     "category": "光纤传输技术",
     "difficulty": "medium",
     "source": "图片导入：quest_pic/光纤传输技术/11-50/20260623094732_035_IMG_2597.png",
@@ -1797,7 +1797,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题6"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -1807,30 +1807,30 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-046",
     "type": "multiple",
-    "stem": "色度色散包括（材料色散0波导色散囵模式色散B振膜色散",
+    "stem": "色度色散包括（ ）",
     "options": [
       {
         "id": "A",
-        "text": "选项 A"
+        "text": "材料色散"
       },
       {
         "id": "B",
-        "text": "选项 B"
+        "text": "波导色散"
       },
       {
         "id": "C",
-        "text": "选项 C"
+        "text": "模式色散"
       },
       {
         "id": "D",
-        "text": "选项 D"
+        "text": "偏振模色散"
       }
     ],
     "answer": [
       "A",
       "B"
     ],
-    "explanation": "我做过的次数15/108",
+    "explanation": "",
     "category": "光纤传输技术",
     "difficulty": "medium",
     "source": "图片导入：quest_pic/光纤传输技术/11-50/20260623094732_036_IMG_2596.png",
@@ -1838,7 +1838,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题5"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -1848,30 +1848,30 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-047",
     "type": "multiple",
-    "stem": "第1章光纤传输技术（1）4·光纤按传输波长分类，可以分为（短波长光纤0长波长光纤0紧套光纤0松套光纤",
+    "stem": "光纤按传输波长分类，可以分为（ ）",
     "options": [
       {
         "id": "A",
-        "text": "选项 A"
+        "text": "短波长光纤"
       },
       {
         "id": "B",
-        "text": "选项 B"
+        "text": "长波长光纤"
       },
       {
         "id": "C",
-        "text": "选项 C"
+        "text": "紧套光纤"
       },
       {
         "id": "D",
-        "text": "选项 D"
+        "text": "松套光纤"
       }
     ],
     "answer": [
       "A",
       "B"
     ],
-    "explanation": "我做过的次数15G14/108",
+    "explanation": "光纤按传输波长分类，可分为短波长光纤、长波长光纤两大类。",
     "category": "光纤传输技术",
     "difficulty": "medium",
     "source": "图片导入：quest_pic/光纤传输技术/11-50/20260623094732_037_IMG_2595.png",
@@ -1879,7 +1879,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题4"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -1889,30 +1889,30 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-048",
     "type": "multiple",
-    "stem": "光纤传输，即以光导纤维为介质进行的（囵数字信号0模拟信号",
+    "stem": "光纤传输，即以光导纤维为介质进行的（ ）传输。",
     "options": [
       {
         "id": "A",
-        "text": "选项 A"
+        "text": "数据"
       },
       {
         "id": "B",
-        "text": "选项 B"
+        "text": "信号"
       },
       {
         "id": "C",
-        "text": "选项 C"
+        "text": "数字信号"
       },
       {
         "id": "D",
-        "text": "选项 D"
+        "text": "模拟信号"
       }
     ],
     "answer": [
       "A",
       "B"
     ],
-    "explanation": "我做过的次数5G13/108）传",
+    "explanation": "",
     "category": "光纤传输技术",
     "difficulty": "medium",
     "source": "图片导入：quest_pic/光纤传输技术/11-50/20260623094732_038_IMG_2594.png",
@@ -1920,7 +1920,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题3"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -1930,30 +1930,30 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-049",
     "type": "multiple",
-    "stem": "多模光纤的纤芯直径为（A囵B50m62·54m60·54m52·54m",
+    "stem": "多模光纤的纤芯直径为（ ）。",
     "options": [
       {
         "id": "A",
-        "text": "选项 A"
+        "text": "50μm"
       },
       {
         "id": "B",
-        "text": "选项 B"
+        "text": "62.5μm"
       },
       {
         "id": "C",
-        "text": "选项 C"
+        "text": "60.5μm"
       },
       {
         "id": "D",
-        "text": "选项 D"
+        "text": "52.5μm"
       }
     ],
     "answer": [
       "A",
       "B"
     ],
-    "explanation": "我做过的次数12/108",
+    "explanation": "",
     "category": "光纤传输技术",
     "difficulty": "medium",
     "source": "图片导入：quest_pic/光纤传输技术/11-50/20260623094732_039_IMG_2593.png",
@@ -1961,7 +1961,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题2"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -1971,30 +1971,30 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-050",
     "type": "multiple",
-    "stem": "半导体激光器在（为广泛。/108）数字光纤通信系统中应用最00B高速率大容量可靠性/」\\容量",
+    "stem": "半导体激光器在（ ）数字光纤通信系统中应用最为广泛。",
     "options": [
       {
         "id": "A",
-        "text": "选项 A"
+        "text": "高速率"
       },
       {
         "id": "B",
-        "text": "选项 B"
+        "text": "大容量"
       },
       {
         "id": "C",
-        "text": "选项 C"
+        "text": "可靠性"
       },
       {
         "id": "D",
-        "text": "选项 D"
+        "text": "小容量"
       }
     ],
     "answer": [
       "A",
       "B"
     ],
-    "explanation": "我做过的次数",
+    "explanation": "",
     "category": "光纤传输技术",
     "difficulty": "medium",
     "source": "图片导入：quest_pic/光纤传输技术/11-50/20260623094732_040_IMG_2592.png",
@@ -2002,7 +2002,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题1"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -2034,7 +2034,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题67"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -2044,7 +2044,7 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-052",
     "type": "judge",
-    "stem": "在多模光纤中，模式色散是其主要的色散D素。（",
+    "stem": "在多模光纤中，模式色散是其主要的色散因素。",
     "options": [
       {
         "id": "true",
@@ -2058,7 +2058,7 @@ export const sampleQuestions: Question[] = [
     "answer": [
       "true"
     ],
-    "explanation": "我做过的次数1",
+    "explanation": "",
     "category": "光纤传输技术",
     "difficulty": "easy",
     "source": "图片导入：quest_pic/光纤传输技术/51-108/20260623105033_002_IMG_2690.png",
@@ -2066,7 +2066,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题68"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -2076,7 +2076,7 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-053",
     "type": "judge",
-    "stem": "65℃WDM可采用不带冷却器的半导体激光器。105/108",
+    "stem": "CWDM可采用不带冷却器的半导体激光器。",
     "options": [
       {
         "id": "true",
@@ -2098,7 +2098,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题53"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -2130,7 +2130,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题64"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -2162,7 +2162,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题66"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -2194,7 +2194,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题62"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -2226,7 +2226,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题61"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -2258,7 +2258,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题60"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -2268,7 +2268,7 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-059",
     "type": "judge",
-    "stem": "半导体光放大器与光纤的耦合损耗大，由于增益与偏振态、温度等D素有关，D此稳定性差；在高速光信号的放大方面，仍存在问题；输出功率小，噪声系统较大。（",
+    "stem": "半导体光放大器与光纤的耦合损耗大，由于增益与偏振态、温度等因素有关，D此稳定性差；在高速光信号的放大方面，仍存在问题；输出功率小，噪声系统较大。",
     "options": [
       {
         "id": "true",
@@ -2290,7 +2290,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题59"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -2322,7 +2322,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题58"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -2354,7 +2354,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题57"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -2364,7 +2364,7 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-062",
     "type": "judge",
-    "stem": "半导体激光器指的是用半导体材料作为激活物质的激光器。（",
+    "stem": "半导体激光器指的是用半导体材料作为激活物质的激光器。",
     "options": [
       {
         "id": "true",
@@ -2386,7 +2386,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题63"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -2418,7 +2418,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题56"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -2450,7 +2450,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题55"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -2460,7 +2460,7 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-065",
     "type": "judge",
-    "stem": "段开销分为SOH和LOH，前者占前3行，后者占5、9行。（",
+    "stem": "段开销分为SOH和LOH，前者占前3行，后者占5、9行。",
     "options": [
       {
         "id": "true",
@@ -2482,7 +2482,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题54"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -2514,7 +2514,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题53"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -2546,7 +2546,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题52"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -2578,7 +2578,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题51"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -2588,7 +2588,7 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-069",
     "type": "judge",
-    "stem": "电话网从设备上讲是由交换机、传输电路佣户线和局间中继电路）和用户终端设备（电话机）三分部组成的。（",
+    "stem": "电话网从设备上讲是由交换机、传输电路佣户线和局间中继电路）和用户终端设备（电话机）三分部组成的。",
     "options": [
       {
         "id": "true",
@@ -2610,7 +2610,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题50"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -2620,7 +2620,7 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-070",
     "type": "judge",
-    "stem": "激光器通常指的是能够产生激光的自激振荡器。（",
+    "stem": "激光器通常指的是能够产生激光的自激振荡器。",
     "options": [
       {
         "id": "true",
@@ -2642,7 +2642,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题49"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -2674,7 +2674,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题48"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -2706,7 +2706,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题47"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -2738,7 +2738,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题46"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -2770,7 +2770,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题45"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -2802,7 +2802,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题44"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -2812,7 +2812,7 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-076",
     "type": "judge",
-    "stem": "光纤中的孤子是光纤色散与非线性相互作用的产物。（",
+    "stem": "光纤中的孤子是光纤色散与非线性相互作用的产物。",
     "options": [
       {
         "id": "true",
@@ -2834,7 +2834,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题43"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -2866,7 +2866,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题42"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -2898,7 +2898,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题41"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -2930,7 +2930,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题40"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -2940,7 +2940,7 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-080",
     "type": "judge",
-    "stem": "散粒噪声属于白噪声，为了降低它的影响，通常在判决电路之前使用低通滤波器，使得信道的带宽变窄。（",
+    "stem": "散粒噪声属于白噪声，为了降低它的影响，通常在判决电路之前使用低通滤波器，使得信道的带宽变窄。",
     "options": [
       {
         "id": "true",
@@ -2954,7 +2954,7 @@ export const sampleQuestions: Question[] = [
     "answer": [
       "true"
     ],
-    "explanation": "我做过的次数1",
+    "explanation": "",
     "category": "光纤传输技术",
     "difficulty": "easy",
     "source": "图片导入：quest_pic/光纤传输技术/51-108/20260623105033_030_IMG_2661.png",
@@ -2962,7 +2962,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题39"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -2994,7 +2994,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题38"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -3026,7 +3026,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题37"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -3036,7 +3036,7 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-083",
     "type": "judge",
-    "stem": "SDH的第一级传输速率为155·52Mbit/s，在北美地区常常采用SDH。（",
+    "stem": "SDH的第一级传输速率为155.52Mbit/s，在北美地区常常采用SDH。",
     "options": [
       {
         "id": "true",
@@ -3050,7 +3050,7 @@ export const sampleQuestions: Question[] = [
     "answer": [
       "false"
     ],
-    "explanation": "我做过的次数1SDH的第一级传输速率为155·52Mbit/s。在北美以外的其他国家和地区常常采用SDH。",
+    "explanation": "SDH的第一级传输速率为155.52Mbit/s。在北美以外的其他国家和地区常常采用SDH。",
     "category": "光纤传输技术",
     "difficulty": "easy",
     "source": "图片导入：quest_pic/光纤传输技术/51-108/20260623105033_034_IMG_2657.png",
@@ -3058,7 +3058,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题36"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -3068,7 +3068,7 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-084",
     "type": "judge",
-    "stem": "激光振荡的相位条件为谐振腔的长度是激光波长的整数倍。（",
+    "stem": "激光振荡的相位条件为谐振腔的长度是激光波长的整数倍。",
     "options": [
       {
         "id": "true",
@@ -3082,7 +3082,7 @@ export const sampleQuestions: Question[] = [
     "answer": [
       "false"
     ],
-    "explanation": "我做过的次数1",
+    "explanation": "",
     "category": "光纤传输技术",
     "difficulty": "easy",
     "source": "图片导入：quest_pic/光纤传输技术/51-108/20260623105033_035_IMG_2656.png",
@@ -3090,7 +3090,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题35"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -3114,7 +3114,7 @@ export const sampleQuestions: Question[] = [
     "answer": [
       "false"
     ],
-    "explanation": "我做过的次数19474/108",
+    "explanation": "",
     "category": "光纤传输技术",
     "difficulty": "easy",
     "source": "图片导入：quest_pic/光纤传输技术/51-108/20260623105033_036_IMG_2655.png",
@@ -3122,7 +3122,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题34"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -3154,7 +3154,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题33"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -3164,7 +3164,7 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-087",
     "type": "judge",
-    "stem": "SDH环形网的某节点发生故障或光缆中断时，不能维持通信能力。（",
+    "stem": "SDH环形网的某节点发生故障或光缆中断时，不能维持通信能力。",
     "options": [
       {
         "id": "true",
@@ -3178,7 +3178,7 @@ export const sampleQuestions: Question[] = [
     "answer": [
       "false"
     ],
-    "explanation": "我做过的次数1",
+    "explanation": "",
     "category": "光纤传输技术",
     "difficulty": "easy",
     "source": "图片导入：quest_pic/光纤传输技术/51-108/20260623105033_038_IMG_2653.png",
@@ -3186,7 +3186,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题32"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -3196,7 +3196,7 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-088",
     "type": "judge",
-    "stem": "光纤通信系统一般由光发射机、光纤光缆、光纤中继器、光接收机四部分构成。（",
+    "stem": "光纤通信系统一般由光发射机、光纤光缆、光纤中继器、光接收机四部分构成。",
     "options": [
       {
         "id": "true",
@@ -3218,7 +3218,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题31"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -3250,7 +3250,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题89"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -3260,7 +3260,7 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-090",
     "type": "judge",
-    "stem": "光纤的温度特性，主要是指温度的高低对光纤损耗的影响。通常温度越高，光纤的损耗越大；温度越低，光纤的损耗越小。（",
+    "stem": "光纤的温度特性，主要是指温度的高低对光纤损耗的影响。通常温度越高，光纤的损耗越大；温度越低，光纤的损耗越小。",
     "options": [
       {
         "id": "true",
@@ -3282,7 +3282,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题29"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -3306,7 +3306,7 @@ export const sampleQuestions: Question[] = [
     "answer": [
       "false"
     ],
-    "explanation": "我做过的次数1光隔离器允许单向光通过。",
+    "explanation": "光隔离器允许单向光通过。",
     "category": "光纤传输技术",
     "difficulty": "easy",
     "source": "图片导入：quest_pic/光纤传输技术/51-108/20260623105033_042_IMG_2649.png",
@@ -3314,7 +3314,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题28"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -3324,7 +3324,7 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-092",
     "type": "judge",
-    "stem": "在没有到达阈值电流时，LD发的光也是激光。（",
+    "stem": "在没有到达阈值电流时，LD发的光也是激光。",
     "options": [
       {
         "id": "true",
@@ -3346,7 +3346,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题27"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -3356,7 +3356,7 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-093",
     "type": "judge",
-    "stem": "固体光开关的优点是插入损耗小，串扰小，适合各种光纤，技术成熟；缺点是开关速度慢。（",
+    "stem": "固体光开关的优点是插入损耗小，串扰小，适合各种光纤，技术成熟；缺点是开关速度慢。",
     "options": [
       {
         "id": "true",
@@ -3370,7 +3370,7 @@ export const sampleQuestions: Question[] = [
     "answer": [
       "false"
     ],
-    "explanation": "我做过的次数1",
+    "explanation": "",
     "category": "光纤传输技术",
     "difficulty": "easy",
     "source": "图片导入：quest_pic/光纤传输技术/51-108/20260623105033_044_IMG_2647.png",
@@ -3378,7 +3378,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题26"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -3388,7 +3388,7 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-094",
     "type": "judge",
-    "stem": "前置放大器置于光发射机前面，放大非常微弱的光信号，以改善灵敏度。（",
+    "stem": "前置放大器置于光发射机前面，放大非常微弱的光信号，以改善灵敏度。",
     "options": [
       {
         "id": "true",
@@ -3402,7 +3402,7 @@ export const sampleQuestions: Question[] = [
     "answer": [
       "false"
     ],
-    "explanation": "我做过的次数1",
+    "explanation": "",
     "category": "光纤传输技术",
     "difficulty": "easy",
     "source": "图片导入：quest_pic/光纤传输技术/51-108/20260623105033_045_IMG_2646.png",
@@ -3410,7 +3410,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题25"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -3434,7 +3434,7 @@ export const sampleQuestions: Question[] = [
     "answer": [
       "false"
     ],
-    "explanation": "我做过的次数1表示光纤色散程度的物理量是时延差。",
+    "explanation": "表示光纤色散程度的物理量是时延差。",
     "category": "光纤传输技术",
     "difficulty": "easy",
     "source": "图片导入：quest_pic/光纤传输技术/51-108/20260623105033_046_IMG_2645.png",
@@ -3442,7 +3442,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题24"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -3452,7 +3452,7 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-096",
     "type": "judge",
-    "stem": "帧结构是由段开销和有效信息载荷组成的。9463/108",
+    "stem": "帧结构是由段开销和有效信息载荷组成的。",
     "options": [
       {
         "id": "true",
@@ -3474,7 +3474,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题23"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -3484,7 +3484,7 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-097",
     "type": "judge",
-    "stem": "光中继器是在短距离的光纤通信系统中补偿光缆线路光信号的损耗和消除信号畸变及噪声影响的设备。0",
+    "stem": "光中继器是在短距离的光纤通信系统中补偿光缆线路光信号的损耗和消除信号畸变及噪声影响的设备。",
     "options": [
       {
         "id": "true",
@@ -3498,7 +3498,7 @@ export const sampleQuestions: Question[] = [
     "answer": [
       "false"
     ],
-    "explanation": "我做过的次数1",
+    "explanation": "",
     "category": "光纤传输技术",
     "difficulty": "easy",
     "source": "图片导入：quest_pic/光纤传输技术/51-108/20260623105033_048_IMG_2643.png",
@@ -3506,7 +3506,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题22"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -3516,7 +3516,7 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-098",
     "type": "judge",
-    "stem": "延时差指的是传输同样的距离时，相同频率的信号成分所需的时间之差。（",
+    "stem": "延时差指的是传输同样的距离时，相同频率的信号成分所需的时间之差。",
     "options": [
       {
         "id": "true",
@@ -3530,7 +3530,7 @@ export const sampleQuestions: Question[] = [
     "answer": [
       "false"
     ],
-    "explanation": "我做过的次数1",
+    "explanation": "",
     "category": "光纤传输技术",
     "difficulty": "easy",
     "source": "图片导入：quest_pic/光纤传输技术/51-108/20260623105033_049_IMG_2642.png",
@@ -3538,7 +3538,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题21"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -3548,7 +3548,7 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-099",
     "type": "judge",
-    "stem": "光放大器是基于自发辐射或光子吸收原理来实现对微弱入射光进行光放大的，其机制与激光器类似。（",
+    "stem": "光放大器是基于自发辐射或光子吸收原理来实现对微弱入射光进行光放大的，其机制与激光器类似。",
     "options": [
       {
         "id": "true",
@@ -3570,7 +3570,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题20"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -3602,7 +3602,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题19"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -3612,7 +3612,7 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-101",
     "type": "judge",
-    "stem": "发光二极管的结构和激光器的结构相似，大多是采用单异质芯片。（",
+    "stem": "发光二极管的结构和激光器的结构相似，大多是采用单异质芯片。",
     "options": [
       {
         "id": "true",
@@ -3626,7 +3626,7 @@ export const sampleQuestions: Question[] = [
     "answer": [
       "false"
     ],
-    "explanation": "我做过的次数1发光二极管的结构和激光器的结构相似，大多是采用双异质芯片。",
+    "explanation": "发光二极管的结构和激光器的结构相似，大多是采用双异质芯片。",
     "category": "光纤传输技术",
     "difficulty": "easy",
     "source": "图片导入：quest_pic/光纤传输技术/51-108/20260623105033_052_IMG_2639.png",
@@ -3634,7 +3634,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题18"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -3644,7 +3644,7 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-102",
     "type": "judge",
-    "stem": "光电检测器应具有单波长检测能力。0",
+    "stem": "光电检测器应具有单波长检测能力。",
     "options": [
       {
         "id": "true",
@@ -3658,7 +3658,7 @@ export const sampleQuestions: Question[] = [
     "answer": [
       "false"
     ],
-    "explanation": "我做过的次数19457/108",
+    "explanation": "",
     "category": "光纤传输技术",
     "difficulty": "easy",
     "source": "图片导入：quest_pic/光纤传输技术/51-108/20260623105033_053_IMG_2638.png",
@@ -3666,7 +3666,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题17"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -3698,7 +3698,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题16"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -3730,7 +3730,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题15"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -3740,7 +3740,7 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-105",
     "type": "judge",
-    "stem": "发光二极管的工作原理与激光器相同。0",
+    "stem": "发光二极管的工作原理与激光器相同。",
     "options": [
       {
         "id": "true",
@@ -3754,7 +3754,7 @@ export const sampleQuestions: Question[] = [
     "answer": [
       "false"
     ],
-    "explanation": "我做过的次数154/108",
+    "explanation": "",
     "category": "光纤传输技术",
     "difficulty": "easy",
     "source": "图片导入：quest_pic/光纤传输技术/51-108/20260623105033_056_IMG_2635.png",
@@ -3762,7 +3762,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题14"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -3772,7 +3772,7 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-106",
     "type": "judge",
-    "stem": "随着激光器温度的上升，其输出光功率会增大。（",
+    "stem": "随着激光器温度的上升，其输出光功率会增大。",
     "options": [
       {
         "id": "true",
@@ -3794,7 +3794,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题13"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -3826,7 +3826,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题12"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,
@@ -3836,7 +3836,7 @@ export const sampleQuestions: Question[] = [
   {
     "id": "fiber-transmission-108",
     "type": "judge",
-    "stem": "光放大器是一种不需要经过光/电/光变换而直接对光信号进行放大的无源器件。（",
+    "stem": "光放大器是一种不需要经过光/电/光变换而直接对光信号进行放大的无源器件。",
     "options": [
       {
         "id": "true",
@@ -3858,7 +3858,7 @@ export const sampleQuestions: Question[] = [
       "第1章",
       "原题108"
     ],
-    "version": "fiber-transmission-2026-06-23",
+    "version": "fiber-transmission-2026-06-23-clean",
     "updatedAt": "2026-06-23T00:00:00.000Z",
     "favorite": false,
     "wrong": false,

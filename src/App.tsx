@@ -253,6 +253,14 @@ function PracticePage({
     setNote("");
   }
 
+  function previousQuestion() {
+    setIndex((value) => Math.max(value - 1, 0));
+    setSelected([]);
+    setRevealed(false);
+    setResult("");
+    setNote("");
+  }
+
   return (
     <section className="stack">
       <div className="control-row">
@@ -314,6 +322,9 @@ function PracticePage({
           )}
 
           <div className="action-row">
+            <button type="button" disabled={index === 0} onClick={previousQuestion}>
+              上一题
+            </button>
             {question.type === "short" ? (
               <>
                 <button className="primary" type="button" onClick={() => submit("mastered")}>
