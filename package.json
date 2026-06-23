@@ -9,6 +9,7 @@
     "preview": "vite preview --host 0.0.0.0",
     "scan:question-images": "node scripts/scan-question-images.mjs",
     "ocr:question-images": "node scripts/ocr-question-images.mjs",
+    "import:ocr-review": "node scripts/import-ocr-review.mjs",
     "serve:dist": "node scripts/local-api-server.mjs",
     "upload": "node scripts/local-api-server.mjs",
     "public-preview": "powershell -ExecutionPolicy Bypass -File scripts/start-public-preview.ps1"
